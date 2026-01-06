@@ -1,0 +1,37 @@
+.a{
+    height: 100px;
+    width: 120px;
+    background-color: chocolate;
+    animation-name: b;
+    animation-duration: 7s;
+    animation-delay: 2s;
+    position: relative;
+}
+@keyframes b{
+0%{
+    background-color: cadetblue;
+    top: 0px;
+    left: 0px;
+}
+25%{
+    background-color: darkgreen;
+    top: 0px;
+    left: 1300px;
+}
+50%{
+    background-color: darkblue;
+    top: 650px;
+    left: 1300px;
+    
+}
+75%{
+    background-color: darkkhaki;
+    top: 650px;
+    left: 0px;
+}
+100%{
+    background-color: gold;
+    top: 0px;
+    left: 0px;
+}
+}
